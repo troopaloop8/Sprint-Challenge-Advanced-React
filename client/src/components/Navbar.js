@@ -9,8 +9,8 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar">
-      <h1>Top 100 Most Searched Women's Soccer Players</h1>
-      <div className="dank-mode__toggle">
+      <h1 className="max-width">Top 100 Most Searched <br/>Women's Soccer Players</h1>
+      <div className="dank-mode__toggle" data-testid="toggle">
         <div
           onClick={toggleDank}
           className={dankMode ? "toggle toggled" : "toggle"}
